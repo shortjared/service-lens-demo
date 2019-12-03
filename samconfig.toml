@@ -1,0 +1,8 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "service-lens-demo"
+s3_prefix = "service-lens-demo"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
