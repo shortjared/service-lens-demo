@@ -21,6 +21,15 @@ exports.getAllItemsHandler = async (event) => {
     }
     // All log statements are written to CloudWatch
     console.info('received:', event);
+    
+    // TODO: fix this stuff that does nothing, testing CodeGuru
+    var foobar, foobaz, foobazzle;
+    var i = 0;
+    while(i < 100){
+        i++;
+    }
+    
+    
 
     // get all items from the table (only first 1MB data, you can use `LastEvaluatedKey` to get the rest of data)
     // https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB/DocumentClient.html#scan-property
